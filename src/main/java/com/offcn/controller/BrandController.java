@@ -24,8 +24,10 @@ public class BrandController {
        return  brandService.getRedis("rose");
     }
 
-     @RequestMapping("/test")
+    @RequestMapping("/test")
     public  String test(){
-       return  "哈哈哈哈";
+
+        return  "哈哈哈哈";
+
     }
 }
