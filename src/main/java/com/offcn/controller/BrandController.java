@@ -23,4 +23,9 @@ public class BrandController {
     public  List<TbBrand> getRedis(){
        return  brandService.getRedis("rose");
     }
+
+     @RequestMapping("/test")
+    public  String test(){
+       return  "哈哈哈哈";
+    }
 }
